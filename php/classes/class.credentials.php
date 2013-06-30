@@ -17,15 +17,15 @@ define("COUNTY_TABLE", "us_counties");
 define("SERVICE_AREAS_TABLE", "service_areas");
 
 /*CartoDB accounts*/
-define("THGIS","http://thgis.cartodb.com/api/v2/sql");
-define("CARTO_BUDGET_DUMPSTER","http://jmfenn.cartodb.com/api/v2/sql");
-define("COMMON","http://where.cartodb.com/api/v2/sql");
+define("THGIS", "http://thgis.cartodb.com/api/v2/sql");
+define("CARTO_BUDGET_DUMPSTER", "http://jmfenn.cartodb.com/api/v2/sql");
+define("COMMON", "http://where.cartodb.com/api/v2/sql");
 
 /*mySQL credentials*/
 
-define("MYSQL_HOST","localhost");
-define("MYSQL_USER","root");
-define("MYSQL_PW","Elance1986");
-define("MYSQL_DB","dumpsterco");
+define("MYSQL_HOST", "localhost");
+define("MYSQL_USER", "root");
+define("MYSQL_PW", "");
+define("MYSQL_DB", "dumpsterco");
 define("TBL_PROVIDERS", "budgetdumpster_providers");
 ?>
