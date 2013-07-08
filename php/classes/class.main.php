@@ -278,6 +278,7 @@ class serviceAreaMapping {
 					$parsedResult = json_decode($result, true);
 					$count = 0;
 					foreach ($parsedResult['rows'] as $res) {
+						$query = "Select searchText from extended_info where ProviderID = " . $res['provider_id'];
 						$searchText_res = $this -> con -> performQuery($query);
 						$searchText = mysql_fetch_assoc($searchText_res);
 						if ($searchText['searchText'] == NULL) { $st = "";
